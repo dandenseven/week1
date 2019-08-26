@@ -1,0 +1,42 @@
+{
+    "storm_trooper023": {
+    "account_num": "1000271empire",
+    "pin": "27891", "first_name":
+    "John", "last_name": "Jackson",
+    "balance" : 177.09, "deposit": 45.70,
+    "transactions": 45.90, "withdrawal": -4.56
+    },
+    {
+    "storm_trooper092": {
+    "account_num": "1000459empire",
+    "pin": "56679", "first_name": 
+    "Melissa", "last_name": "Roth",
+    "balance" : 230.09, "deposit": 450.00,
+    "transaction": 56.87, "withdrawal": -34.65
+    },
+    {
+     "storm_trooper045": {
+    "account_num": "1000894empire",
+    "pin": "27891", "first_name": 
+    "Joan", "last_name": "Yang",
+    "balance" : 12.09, "deposit": 788.89,
+    "transaction": 77.12, "withdrawal": -32.02
+    },
+    {
+    "storm_trooper063": {
+    "account_num": "1000276empire",
+    "pin": "32904", "first_name":
+    "Pedjro", "last_name": "Gomez",
+    "balance" : 47.06, "deposit": 673.96, 
+    "transaction": 47.32, "withdrawal": -74.62
+    },
+    {
+    "storm_trooper085": {
+    "aacount_num": "1000298empire",
+    "pin": "40963", "first_name":
+    "Kevin", "last_name": "Lattimore",
+    "balance" : 0.09, "deposit": 1275.90,
+    "transaction": 22.10, "withdrawal": -34.32
+    },
+
+}

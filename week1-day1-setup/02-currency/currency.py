@@ -1,40 +1,27 @@
-# Show Me The Money
----
-
-##### Challenge
-* Write a function that takes in a float as an argument
-* This function should return the number of American coins and bills needed to represent that float. (Round to the nearest penny)
-
-Use the following as denominations for your currencies:
-
-```
-    Penny: 1 cent
-    Nickel: 5 cent
-    Dime: 10 cent
-    Quarter: 25 cent
-    One-dollar bill
-    Five-dollar bill
-    Ten-dollar bill
-    Fifty-dollar bill
-    Hundred-dollar bill
-```
-
-##### Please make sure the function follows the below format
-
-```
 def currency_converter(amount):
-```
+    amount = float(amount)
 
-#####Example input/output
-```
-[input]
-currency_converter(12.33)
+    currency = [hundred_dollar == .01 * 10000, fifty_dollar == .01 * 5000, ten_dollar == .01 * 1000,
+    five_dollar == .01 * 500, one_dollar == .01 * 100, quarter == .01 * 25, dime == .01 * 10, 
+    nickel == .01 * 5, penny == .01 * 1];
 
-[output]
-1 $10
-2 $1
-1 quarter
-1 nickel
-3 penny
-```
-* Don't worry about making the denomination words plural. For example, `3 penny` is OK and doesn't need to be `3 pennies`.
+
+    if currency >= 100:
+        return 1 * 100 // 1600
+    if currency >= 50:
+        return 1
+    if currency >= 10:
+        return 1
+    if currency >= 5:
+        return 1
+    if currency >= .25:
+        return 1
+    if currency >= .10
+        return 1
+    if currency >= .05
+        return 1
+    if currency >= .01
+        return 1
+
+input  float(1684.26)
+
